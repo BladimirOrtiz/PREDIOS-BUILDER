@@ -18,7 +18,7 @@ data class Builder(val folio: Int,
         return this
     }
 
-    fun addAllProterties(elements: ArrayList<Property>): Builder {
+    fun addAllProperties(elements: ArrayList<Property>): Builder {
         properties.addAll(elements)
         return this
     }
